@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 1440px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    background: #52503B;
+}
+.job-logo img{
+   height: 45px;
+}
+.menu-navigation{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.menu-navigation a{
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration:none;
+    color: #fff;
+    padding: 30px 0px;
+    transition: 0.3;
+}
+.menu-navigation a:hover {
+    color: rgb(7, 7, 7);
+    font-weight: 500;
+}
+button{
+    padding: 11px 18px;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 6px;
+    border: none;
+}
+.book-now-btn{
+    color: #52503B;
+    background: #FFFFFF;
+}
+button:hover{
+    color: #FFFFFF;
+    background: #98946a;
+}
+main {
+    flex: 1;
+}
+.company-motto{
+    background-image: url('images/gest-house-motto.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+}
+.guest-house-logo{
+    padding-top: 178px;
+}
+h1{
+    color: #fff;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    padding: 34px 133px;
+}
+.company-motto p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 116.75px;
+}
+.guest-house-vector{
+    padding-bottom: 98.75px;
+}
+.general-info{
+    position: relative;
+    background: #FAF8F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.general-info::after{
+    content: '';
+    position: absolute;
+    height: 8px;
+    background: #E08631;
+    width: 42px;
+    top: 100px;
+}
+.general-info p{
+    color: #333333;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 140px;
+}
+.about-house-article-one{
+    width: 360px;
+    height: 180px;
+    padding-bottom: 89px;
+}
+.second-article{
+    padding-bottom: 106px;
+}
+.about-house-article-two{
+    width: 343px;
+    height: 80px;
+    padding-bottom: 41px;
+}
+.guest-house-book-btn{
+    background: #52503B;
+    color: #FFFFFF;
+}
+h2{
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
+    text-align: center;
+    color: #52503B;
+    padding: 70px 76px;
+}
+.info-about-arrangaments{
+    background: #FAF8F0;
+    text-align: center;
+}
+h3{
+    font-size: 32px;
+    line-height: 36px;
+    color: #52503B;
+    padding-bottom: 14px;
+    padding-top: 80px;
+}
+.sleeping-arrangements-details{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+h4,
+.sleeping-arrangements-info p,
+.perfect-escape-info p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #52503B;
+}
+.sleeping-arrangements-details p,
+h5{
+    font-size: 14px;
+    line-height: 20px;
+    color: #52503B;
+}
+.perfect-escape-info{
+    padding-left: 80px;
+}
+.perfect-escape-details{
+    display: flex;
+    gap: 16px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.perfect-escape-details p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    padding-bottom: 16px;
+}
+.perfect-escape-details img{
+    width: 36px;
+    height: 36px;
+}
+.feedback-section{
+    background: #FAF8F0;
+    padding-bottom: 50px;
+    padding-left: 60px;
+}
+.feedback-info{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.feedbacks-field{
+    display: flex;
+    gap: 20px;
+}
+.feedback{
+    background: #FFFFFF;
+    border: 1px solid rgba(82, 80, 59, 0.1);
+    border-radius: 4px;
+    padding: 20px;
+    color: #333333;
+}
+.feedback h6{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.feedback p{
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.slider{
+    padding-top: 20px;
+    text-align: right;
+    padding-right: 180px;
+}
+.services-info{
+    padding: 80px;
+    background: #FFFFFF;
+    display: flex;
+}
+.services-info p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #52503B;
+}
+.services-items{
+    display: flex;
+    gap:20px
+}
+.services-items img{
+    padding-left: 20px;
+}
+.services-items p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    text-align: left;
+    padding: 20px;
+}
+.book-form{
+    text-align: center;
+    padding: 0 410px;
+    background: #FAF8F0;
+}
+.book-form p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #52503B;
+    padding-bottom: 15px;
+}
+.book-form .guest-house-book-btn{
+    border: 4px solid #52503B;
+}
+.contact-btn{
+    border: 4px solid #52503B;
+    border-radius: 6px;   
+}
+.book-form-buttons{
+    padding-bottom: 60px;
+}
+footer{
+    background: #52503B;
+    padding-bottom: 60px;
+}
+.footer-social-media-info{
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 60px;
+}
+.footer-social-media-info h6{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.footer-social-media-info p,
+.footer-social-media-info h6{
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.footer-social-media-info button{
+    background: #52503B;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    transition: 0.3;
+}
+.footer-social-media-info button:hover{
+    background: #98946a;
+}
+.menu-navigation-footer li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.menu-navigation-footer a,
+.footer-contacts a{
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.3;
+}
+.menu-navigation-footer a:hover,
+.footer-contacts a:hover{
+    text-decoration: underline;  
+}
+.social-media{
+    text-align: center;
+    letter-spacing: 15px;
+}
+form{
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 10px;
+}
+input{
+    color: #52503B;
+    padding-left: 30px;
+    border: none;
+    padding-right: 250px;
+}
+.footer-contacts-info{
+    text-align: center;
+    padding-top: 80px; 
+    color: #FFFFFF; 
+}
+.footer-contacts-info img{
+    padding-bottom: 20px;
+}
+.footer-contacts-info p,
+input{
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer-contacts{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px; 
+}
+
+
+
+
+
